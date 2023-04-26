@@ -4,7 +4,6 @@ import ArticleList from './ArticleList.vue'
 import { items } from './fixture'
 
 const meta: Meta<typeof ArticleList> = {
-  title: 'ArticleList',
   component: ArticleList
 }
 

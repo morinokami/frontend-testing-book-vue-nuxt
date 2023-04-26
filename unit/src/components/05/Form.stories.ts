@@ -11,12 +11,8 @@ export default meta
 type Story = StoryObj<typeof Form>
 
 export const Default: Story = {
-  render: (args) => ({
+  render: () => ({
     components: { Form },
-    setup() {
-      return { args }
-    },
     template: '<Form v-bind="args" />'
-  }),
-  args: { name: 'taro' }
+  })
 }
