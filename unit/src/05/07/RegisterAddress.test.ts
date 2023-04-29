@@ -1,5 +1,5 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, beforeEach, expect, test, vi } from 'vitest'
+import { render, screen } from '@testing-library/vue'
+import { vi } from 'vitest'
 
 import { mockPostMyAddress } from './fetchers/mock'
 import RegisterAddress from './RegisterAddress.vue'
@@ -28,10 +28,6 @@ async function fillInvalidValuesAndSubmit() {
 
 beforeEach(() => {
   vi.resetAllMocks()
-})
-
-afterEach(() => {
-  cleanup()
 })
 
 test('成功時「登録しました」が表示される', async () => {

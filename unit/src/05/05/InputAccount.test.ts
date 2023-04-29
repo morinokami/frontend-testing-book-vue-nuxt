@@ -1,14 +1,9 @@
 import userEvent from '@testing-library/user-event'
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import InputAccount from './InputAccount.vue'
 
 const user = userEvent.setup()
-
-afterEach(() => {
-  cleanup()
-})
 
 test('fieldset のアクセシブルネームは、legend を引用している', () => {
   render(InputAccount)

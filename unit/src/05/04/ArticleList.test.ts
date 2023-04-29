@@ -1,12 +1,7 @@
-import { cleanup, render, screen, within } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen, within } from '@testing-library/vue'
 
 import ArticleListVue from './ArticleList.vue'
 import { items } from './fixture'
-
-afterEach(() => {
-  cleanup()
-})
 
 test('タイトルの表示', () => {
   render(ArticleListVue, { props: { items } })

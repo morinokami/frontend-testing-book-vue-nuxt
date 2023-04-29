@@ -1,11 +1,7 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/vue'
-import { afterEach, describe, expect, test, vi } from 'vitest'
+import { fireEvent, render, screen } from '@testing-library/vue'
+import { vi } from 'vitest'
 
 import RegisterDeliveryAddress from './RegisterDeliveryAddress.vue'
-
-afterEach(() => {
-  cleanup()
-})
 
 describe('新しいお届け先を登録しますか？', () => {
   test('ラジオボタンをクリックすると、コールバックハンドラが呼ばれる', () => {

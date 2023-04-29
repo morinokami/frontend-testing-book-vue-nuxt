@@ -1,14 +1,9 @@
 import userEvent from '@testing-library/user-event'
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import Form from './Form.vue'
 
 const user = userEvent.setup()
-
-afterEach(() => {
-  cleanup()
-})
 
 test('form のアクセシブルネームは、見出しを引用している', () => {
   render(Form)

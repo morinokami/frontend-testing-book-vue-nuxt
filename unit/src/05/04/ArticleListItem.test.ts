@@ -1,5 +1,4 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import type { ItemProps } from './ArticleListItem.vue'
 import ArticleListItem from './ArticleListItem.vue'
@@ -9,10 +8,6 @@ const item: ItemProps = {
   title: 'TypeScript を使ったテストの書き方',
   body: 'テストを書く時、TypeScript を使うことで、テストの保守性が向上します…'
 }
-
-afterEach(() => {
-  cleanup()
-})
 
 test('ID に紐づいたリンクが表示される', () => {
   render(ArticleListItem, { props: item })

@@ -1,11 +1,6 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import Articles from './Articles.vue'
-
-afterEach(() => {
-  cleanup()
-})
 
 test.skip('読み込み中の場合「..loading」が表示される', () => {
   render(Articles, { props: { items: [], isLoading: true } })

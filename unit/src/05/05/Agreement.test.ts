@@ -1,11 +1,6 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import Agreement from './Agreement.vue'
-
-afterEach(() => {
-  cleanup()
-})
 
 test('fieldset のアクセシブルネームは、legend を引用している', () => {
   render(Agreement)

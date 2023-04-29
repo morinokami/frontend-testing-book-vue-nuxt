@@ -1,15 +1,6 @@
-import { cleanup, fireEvent, logRoles, render, screen } from '@testing-library/vue'
-import { afterEach, expect, test, vi } from 'vitest'
+import { fireEvent, logRoles, render, screen } from '@testing-library/vue'
 
 import Form from './Form.vue'
-
-// https://vitest.dev/guide/migration.html#migrating-from-jest の理由により、
-// 明示的に cleanup (https://testing-library.com/docs/vue-testing-library/api#cleanup)
-// を呼び出す必要がある。
-// vitest.config.ts において globals: true とすればこれは不要となる。
-afterEach(() => {
-  cleanup()
-})
 
 test('名前の表示', () => {
   render(Form, { props: { name: 'taro' } })

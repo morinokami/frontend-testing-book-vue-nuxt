@@ -1,15 +1,11 @@
 import userEvent from '@testing-library/user-event'
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, describe, expect, test, vi } from 'vitest'
+import { render, screen } from '@testing-library/vue'
+import { vi } from 'vitest'
 
 import { deliveryAddresses } from './fixtures'
 import Form from './Form.vue'
 
 const user = userEvent.setup()
-
-afterEach(() => {
-  cleanup()
-})
 
 async function inputContactNumber(
   inputValues = {

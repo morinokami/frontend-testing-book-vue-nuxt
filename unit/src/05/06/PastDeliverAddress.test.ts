@@ -1,11 +1,6 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, describe, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import PastDeliveryAddress from './PastDeliveryAddress.vue'
-
-afterEach(() => {
-  cleanup()
-})
 
 describe('過去のお届け先', () => {
   const options = [

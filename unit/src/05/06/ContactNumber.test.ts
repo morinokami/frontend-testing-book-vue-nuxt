@@ -1,11 +1,6 @@
-import { cleanup, render, screen } from '@testing-library/vue'
-import { afterEach, describe, expect, test } from 'vitest'
+import { render, screen } from '@testing-library/vue'
 
 import ContactNumber from './ContactNumber.vue'
-
-afterEach(() => {
-  cleanup()
-})
 
 describe('連絡先', () => {
   test('タイトル', () => {
