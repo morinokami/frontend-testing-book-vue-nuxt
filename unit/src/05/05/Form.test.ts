@@ -1,7 +1,7 @@
+import userEvent from '@testing-library/user-event'
+import { cleanup, render, screen } from '@testing-library/vue'
 import { afterEach, expect, test } from 'vitest'
 
-import { cleanup, render, screen } from '@testing-library/vue'
-import userEvent from '@testing-library/user-event'
 import Form from './Form.vue'
 
 const user = userEvent.setup()

@@ -1,6 +1,6 @@
+import { cleanup, render, screen } from '@testing-library/vue'
 import { afterEach, beforeEach, expect, test, vi } from 'vitest'
 
-import { cleanup, render, screen } from '@testing-library/vue'
 import { mockPostMyAddress } from './fetchers/mock'
 import RegisterAddress from './RegisterAddress.vue'
 import { clickSubmit, inputContactNumber, inputDeliveryAddress } from './testingUtils'

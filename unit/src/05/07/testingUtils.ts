@@ -1,5 +1,5 @@
-import { screen } from '@testing-library/vue'
 import userEvent from '@testing-library/user-event'
+import { screen } from '@testing-library/vue'
 
 const user = userEvent.setup()
 

@@ -1,6 +1,6 @@
+import { cleanup, render, screen } from '@testing-library/vue'
 import { afterEach, expect, test } from 'vitest'
 
-import { cleanup, render, screen } from '@testing-library/vue'
 import Articles from './Articles.vue'
 
 afterEach(() => {

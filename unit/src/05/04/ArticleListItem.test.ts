@@ -1,6 +1,6 @@
+import { cleanup, render, screen } from '@testing-library/vue'
 import { afterEach, expect, test } from 'vitest'
 
-import { cleanup, render, screen } from '@testing-library/vue'
 import type { ItemProps } from './ArticleListItem.vue'
 import ArticleListItem from './ArticleListItem.vue'
 

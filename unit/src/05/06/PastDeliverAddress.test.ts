@@ -1,6 +1,6 @@
+import { cleanup, render, screen } from '@testing-library/vue'
 import { afterEach, describe, expect, test } from 'vitest'
 
-import { cleanup, render, screen } from '@testing-library/vue'
 import PastDeliveryAddress from './PastDeliveryAddress.vue'
 
 afterEach(() => {

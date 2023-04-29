@@ -2,8 +2,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import InputAccount from './InputAccount.vue'
 import Agreement from './Agreement.vue'
+import InputAccount from './InputAccount.vue'
 
 const checked = ref(false)
 const headingId = 'TODO' // TODO: Vue には useId がない

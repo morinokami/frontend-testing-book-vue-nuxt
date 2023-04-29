@@ -1,10 +1,11 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { ref } from 'vue'
+
 import ContactNumber from './ContactNumber.vue'
-import RegisterDeliveryAddress from './RegisterDeliveryAddress.vue'
 import DeliveryAddress from './DeliveryAddress.vue'
 import PastDeliveryAddress from './PastDeliveryAddress.vue'
+import RegisterDeliveryAddress from './RegisterDeliveryAddress.vue'
 
 // TODO: React.ComponentProps を表現できない
 export type AddressOption = { id: string } & Record<string, string>

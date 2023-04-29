@@ -1,6 +1,6 @@
+import { cleanup, fireEvent, logRoles, render, screen } from '@testing-library/vue'
 import { afterEach, expect, test, vi } from 'vitest'
 
-import { cleanup, fireEvent, logRoles, render, screen } from '@testing-library/vue'
 import Form from './Form.vue'
 
 // https://vitest.dev/guide/migration.html#migrating-from-jest の理由により、

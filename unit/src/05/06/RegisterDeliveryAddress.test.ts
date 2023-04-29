@@ -1,6 +1,6 @@
+import { cleanup, fireEvent, render, screen } from '@testing-library/vue'
 import { afterEach, describe, expect, test, vi } from 'vitest'
 
-import { cleanup, fireEvent, render, screen } from '@testing-library/vue'
 import RegisterDeliveryAddress from './RegisterDeliveryAddress.vue'
 
 afterEach(() => {

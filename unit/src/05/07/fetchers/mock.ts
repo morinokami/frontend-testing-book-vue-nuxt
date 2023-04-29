@@ -1,4 +1,5 @@
 import { vi } from 'vitest'
+
 import * as Fetchers from '.'
 import { httpError, postMyAddressMock } from './fixtures'
 
