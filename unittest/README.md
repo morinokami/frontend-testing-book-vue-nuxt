@@ -1,4 +1,4 @@
-# unit
+# unittest
 
 https://github.com/frontend-testing-book/unittest を Vue により書き換えた。また、Jest ではなく Vitest を使用している。
 
