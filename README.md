@@ -1,5 +1,5 @@
 # frontend-testing-book-vue-nuxt
 
-https://github.com/frontend-testing-book (https://www.shoeisha.co.jp/book/detail/9784798178639)
+『[フロントエンド開発のためのテスト入門](https://www.shoeisha.co.jp/book/detail/9784798178639)』の Vue、Nuxt 対応版を作成する。以下は書籍のリポジトリの URL:
 
-を Vue と Nuxt に対応させる。
+https://github.com/frontend-testing-book 
