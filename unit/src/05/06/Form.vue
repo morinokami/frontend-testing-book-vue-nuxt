@@ -7,7 +7,7 @@ import DeliveryAddress from './DeliveryAddress.vue'
 import PastDeliveryAddress from './PastDeliveryAddress.vue'
 import RegisterDeliveryAddress from './RegisterDeliveryAddress.vue'
 
-// TODO: React.ComponentProps を表現できない
+// NOTE: React.ComponentProps を表現できないため、代わりに Record を使用している
 export type AddressOption = { id: string } & Record<string, string>
 defineProps<{
   deliveryAddresses?: AddressOption[]

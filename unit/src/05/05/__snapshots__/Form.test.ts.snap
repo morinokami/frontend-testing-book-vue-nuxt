@@ -3,10 +3,10 @@
 exports[`Snapshot: 新規アカウント登録フォームが表示される 1`] = `
 <div>
   <form
-    aria-labelledby="TODO"
+    aria-labelledby="loremipsum"
   >
     <h2
-      id="TODO"
+      id="loremipsum"
     >
       新規アカウント登録
     </h2>

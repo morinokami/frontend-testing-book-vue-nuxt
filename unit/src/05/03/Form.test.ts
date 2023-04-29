@@ -40,6 +40,6 @@ test('Snapshot: アカウント名「taro」が表示される', () => {
 
 test('logRoles: レンダリング結果からロール・アクセシブルネームを確認', () => {
   const { container } = render(Form, { props: { name: 'taro' } })
-  // TODO: container が HTMLElement でないため型エラーが発生する
+  // NOTE: container が HTMLElement でないため型エラーが発生する
   logRoles(container)
 })

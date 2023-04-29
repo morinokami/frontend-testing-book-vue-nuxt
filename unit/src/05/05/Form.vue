@@ -6,7 +6,7 @@ import Agreement from './Agreement.vue'
 import InputAccount from './InputAccount.vue'
 
 const checked = ref(false)
-const headingId = 'TODO' // TODO: Vue には useId がない
+const headingId = 'loremipsum' // NOTE: Vue では useId が利用できない
 </script>
 
 <template>
