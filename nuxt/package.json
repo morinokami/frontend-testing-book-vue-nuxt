@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "test": "vitest",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -12,7 +13,6 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "@storybook/addon-a11y": "^7.0.7",
     "@storybook/addon-essentials": "^7.0.7",
@@ -23,19 +23,25 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@storybook/vue3": "^7.0.7",
     "@storybook/vue3-vite": "^7.0.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/vue": "^7.0.0",
+    "@types/jsdom": "^21.1.1",
     "@types/node": "^18.16.3",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
     "eslint": "^8.39.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-vue": "^9.11.0",
+    "jsdom": "^21.1.1",
     "nuxt": "^3.4.3",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.0.7",
     "unplugin-auto-import": "^0.15.3",
-    "unplugin-vue-components": "^0.24.1"
+    "unplugin-vue-components": "^0.24.1",
+    "vitest": "^0.30.1"
   }
 }
